@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #cc0000; color: white;
+    }
+    
+    .active{
+    color:#41a0f4;
+    }
+    
+    .navbar-brand{
+    color:white;
+    }
+    
+ .footer{
+    position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    background-color: #cc0000;
+    color:white;
+    text-align: center;
+    }
+
+    .alta{
+            
+        background-color:rgb(197, 5, 43);
+
+    }
+    .media{
+               background-color:yellow;
+        }
+    .baixa{
+               background-color:#71CE75;
+        }
+    .interno{
+                padding: 2%;
+                background-color:whitesmoke;
+
+    }
