@@ -1,0 +1,13 @@
+SELECT * FROM `tb_ocorrencia` WHERE `nm_destino` LIKE '%sa%' ORDER BY `dt_ocorrencia` ASC
+
+
+
+
+
+
+SELECT id_ocorrencia, nm_solicitante, nr_telefone, vl_idade,queixa, nm_bairro frOM tb_ocorrencia WHERE id_ocorrencia > 0
+
+SELECT id_ocorrencia, nm_solicitante, nr_telefone, vl_idade,queixa, nm_bairro frOM tb_ocorrencia WHERE triagem = 0;
+
+SELECT id_ocorrencia,tp_ocorrencia, nr_telefone, tp_logradouro, nm_endereco,num_enderco ,ds_complemento,nm_bairro,ref_endereco, nm_medico_reg, diagnostico FROM tb_ocorrencia WHERE triagem =1
+
